@@ -10,11 +10,12 @@
     "glob": "^5.0.15",
     "jsen": "^0.6.0",
     "moment": "^2.10.6",
-    "libxmljs": "^0.14.3",
+    "libxmljs": "polotek/libxmljs",
     "rimraf": "^2.4.5",
     "tiptoe": "^1.0.0",
     "xutil": "git://github.com/Sembiance/xutil.git",
-    "xbase": "git://github.com/Sembiance/xbase.git"
+    "xbase": "git://github.com/Sembiance/xbase.git",
+    "touch": "1.0.0"
   },
   "devDependencies": {},
   "scripts": {
