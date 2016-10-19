@@ -18,7 +18,8 @@ exports.EXTRA_HEROES_HEROMODS_NAMED =
   "guldan"	: "Guldan",
   "auriel"	: "Auriel",
   "alarak"	: "Alarak",
-  "zarya"		: "Zarya"
+  "zarya"		: "Zarya",
+  "samuro"	: "Samuro"
 };
 
 exports.SKIP_HERO_IDS = ["GreymaneWorgen", "ChoGallBundleProduct"];
@@ -104,8 +105,8 @@ exports.HERO_MODIFICATIONS =
 
 exports.MOUNT_MODIFICATIONS =
 {
-	"Random" : [ 
-		{ path : ":root", name : "description", value : "A random mount."}, 
+	"Random" : [
+		{ path : ":root", name : "description", value : "A random mount."},
 		{ path : ":root", name : "category", value : "Random"}
 	],
 	"Mechanospider" : [ { path : ":root", name : "franchise", value : "Warcraft"} ],
@@ -253,7 +254,7 @@ exports.FORMULA_PRE_REPLACEMENTS =
 		  match : "((Effect,ZaryaExpulsionZoneInitialSearchArea,AreaArray[0].Radius+.Value+Talent,ZaryaExpulsionZoneClearOut,AbilityModificationArray[0].Modifications[1].Value)/Effect,ZaryaExpulsionZoneInitialSearchArea,AreaArray[0].Radius)-1)*100",
 		replace : "((Effect,ZaryaExpulsionZoneInitialSearchArea,AreaArray[0].Radius+Talent,ZaryaExpulsionZoneClearOut,AbilityModificationArray[0].Modifications[1].Value)/Effect,ZaryaExpulsionZoneInitialSearchArea,AreaArray[0].Radius)-1)*100"
 	}
-	
+
 
 
 ];
